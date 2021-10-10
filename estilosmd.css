@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+  .link-whatsapp {
+    right: 20px;
+    bottom: 80px;
+  }
+  .nav-main h1 {
+  position: absolute;
+  left: 50px;
+}
+.nav-menu {
+    flex-direction: column;
+    position: fixed;
+    z-index: 500;
+    left: 0px;
+    top: 0;
+    width: 95%;
+    align-items: center;
+    background-color: var(--menu-mobile-background-color);
+    height: 100%;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.8s;
+  }
+  .nav-menu li {
+    padding: 0;
+  }
+  .nav-menu a {
+    color: var(--text-color-inverse);
+    line-height: 160px;
+  }
+  .open-menu,
+  .close-menu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+.open-menu i {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.close-menu i {
+  color: white;
+  font-size: 40px;
+}
+  .close-menu {
+    align-self: flex-end;
+    padding: 12px 12px;
+  }
+  .menu_opened {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .open-menu:focus:not(:focus-visible),
+  .close-menu:focus:not(:focus-visible) {
+    outline: none;
+  }
+  .menu a::after {
+    content: none;
+  }
+.nav-main ul li a:hover {
+  border-bottom: 2px solid var(--secundary-color);
+}
+  .nav-menu a:hover,
+  .nav-menu a.selected {
+    color: var(--secundary-color);
+  }
+  .news-cards {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 17px;
+  }
+  .news-cards h3 {
+    height: 20px;
+  }
+  .footer {
+    font-size: 15px;
+    height: 80px;
+  }
+  .footer ul li {
+  padding: 10px 0px;
+  text-transform: uppercase;
+  font-size: 15px;
+  position: relative;
+  bottom: 10px;
+}
+  .cards-banner-one .content,
+  .cards-banner-two .content {
+  width: 50%;
+  padding: 50px 0 0 30px;
+  }
+  .cards-banner-one h2,
+.cards-banner-one p,
+.cards-banner-two h2,
+.cards-banner-two p {
+  font-size: 20px;
+}
+.footer .copyright {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    font-size: 15px;
+    color: orange;
+  }
+}
+@media (max-width: 618px) {
+  .news-cards h3 {
+    height: 37px;
+  }
+  .footer .copyright {
+    right: 130px; 
+  }
+   .nav-menu {
+   left: -5px;
+  }
+}

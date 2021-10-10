@@ -1,0 +1,64 @@
+.cards-banner-catalogo {
+  width: 100%;
+  height: 420px;
+  background: url(img/mn-herramienta-piso.jpg);
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: 100% 100%;
+  margin-bottom: 40px;
+  position: relative;
+  top: 80px;
+}
+.cards-banner-catalogo .content {
+  width: 40%;
+  color: #fff;
+}
+.cards-banner-catalogo h2 {
+  position: absolute;
+  bottom: 0%;
+  padding: 70px;
+}
+/* NEWS CARDS */
+.products-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 100px 0px 40px 0;
+}
+.products-cards img {
+  width: 100%;
+  height: 135px;
+}
+.products-cards .descripcion-producto {
+  height: 50px;
+  background-color: white;
+  justify-content: center;
+}
+.products-cards .descripcion-producto h3,
+.products-cards .descripcion-producto p {
+  color: black;
+}
+.products-cards h3 {
+  height: 20%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.products-cards p {
+  height: 80%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+@media (max-width: 412px) {
+  .products-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+.products-cards img {
+  height: 195px;
+}
+}
