@@ -1,4 +1,4 @@
-@media (max-width: 412px){
+@media (max-width: 412px) {
   .link-whatsapp {
     width: 53px;
     height: 53px;
@@ -21,81 +21,81 @@
     z-index: 5000;
     position: absolute;
     left: 0px;
-    top:10px;
+    top: 10px;
   }
   .nav-menu {
-   left: -10px;
+    left: -10px;
   }
   .close-menu {
     padding: 9px 12px;
   }
   .showcase h2 {
-  font-size: 25px;
-}
-.showcase p {
-  font-size: 15px;
-}
-.tarjetas-promo {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 25px;
-  margin: 40px 0;
-}
-.tarjetas-promo h3 {
-  font-size: 18px;
-  margin: 10px 0;
-  height: 25px;
-}
-.cards-banner-one,
-.cards-banner-two {
-  position: relative;
-}
- .cards-banner-one .content,
-  .cards-banner-two .content {
-  width: 95%;
-  padding: 180px 0px 0px 15px;
+    font-size: 25px;
   }
-.cards-banner-one h2,
-.cards-banner-two h2,
-.cards-banner-one p,
-.cards-banner-two p {
-  top: 0;
-  font-size: 15px;
-}
-.social p {
-  font-size: 15px;
-}
-.links a i {
-  font-size: 2.2rem;
-}
-.footer {
-  font-size: 17px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 30px 0;
-  border-top: 2px solid #fff;
-  width: 100%;
-}
-.footer ul {
-  display: flex;
-}
-.footer ul li {
-  padding: 10px 0px;
-  text-transform: uppercase;
-  font-size: 11px;
-  position: relative;
-  bottom: 10px;
-}
-.footer ul li a {
-  padding: 6px;
-}
-.footer ul.footer-menu {
-  flex: 1;
-  justify-content: center;
-}
-.news-cards {
+  .showcase p {
+    font-size: 15px;
+  }
+  .tarjetas-promo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    margin: 40px 0;
+  }
+  .tarjetas-promo h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    height: 25px;
+  }
+  .cards-banner-one,
+  .cards-banner-two {
+    position: relative;
+  }
+  .cards-banner-one .content,
+  .cards-banner-two .content {
+    width: 95%;
+    padding: 180px 0px 0px 15px;
+  }
+  .cards-banner-one h2,
+  .cards-banner-two h2,
+  .cards-banner-one p,
+  .cards-banner-two p {
+    top: 0;
+    font-size: 15px;
+  }
+  .social p {
+    font-size: 15px;
+  }
+  .links a i {
+    font-size: 2.2rem;
+  }
+  .footer {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 30px 0;
+    border-top: 2px solid #fff;
+    width: 100%;
+  }
+  .footer ul {
+    display: flex;
+  }
+  .footer ul li {
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 11px;
+    position: relative;
+    bottom: 10px;
+  }
+  .footer ul li a {
+    padding: 6px;
+  }
+  .footer ul.footer-menu {
+    flex: 1;
+    justify-content: center;
+  }
+  .news-cards {
     grid-template-columns: repeat(2, 1fr);
     font-size: 15px;
   }
@@ -104,7 +104,7 @@
   }
   .footer .copyright {
     position: absolute;
-    right: 65px;
+    right: 0px;
     font-size: 13px;
     color: orange;
   }
