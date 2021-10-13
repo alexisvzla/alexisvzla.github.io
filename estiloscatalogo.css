@@ -30,7 +30,7 @@
   height: 135px;
 }
 .products-cards .descripcion-producto {
-  height: 50px;
+  height: 0px;
   background-color: white;
   justify-content: center;
 }
@@ -40,14 +40,14 @@
 }
 .products-cards h3 {
   height: 20%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 15px;
   text-align: center;
   padding: 5px;
 }
 .products-cards p {
   height: 80%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 13px;
   padding: 5px 10px;
 }
@@ -58,7 +58,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-.products-cards img {
-  height: 195px;
-}
+  .products-cards img {
+    height: 180px;
+  }
 }
